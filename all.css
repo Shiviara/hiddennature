@@ -42,7 +42,7 @@ h3{
 }
 
  /*link*/
-a:link {
+link {
     font-family: var(--bodytext);
     font-size: 30px;
     font-style: normal;
@@ -52,17 +52,73 @@ a:link {
     cursor: pointer;
 }
 
-a:hover{
+link:hover{
     color: var(--sage);
 }
 
+
+/*~~~ Nav bar ~~~*/
 /*font nav bar*/
-header {
+link {
     font-family: var(--bodytext);
     font-size: 45px;
     font-style: normal;
     font-weight: lighter;
     color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav {
+    font-style: normal;
+    font-weight: lighter;
+    color: var(--white);
+    background-color: var(--forest);
+
+    overflow: hidden;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 0 0 25px 25px;
+    /*display: flex;
+    justify-content: center;*/
+}
+
+.nav a{
+    display: block;
+    color: var(--white);
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 40px 50px;
+    font-size: 45px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+section{
+    margin: 0;
+}
+
+.nav a.splitL{
+    float: left;
+    margin: 0;
+}
+
+.nav a.splitR{
+    float: right;
+    margin: 0;
 }
 
 
@@ -70,6 +126,12 @@ header {
 body{
     /*body text*/
     font-family: var(--bodytext);
+    margin: 0;
+}
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 
