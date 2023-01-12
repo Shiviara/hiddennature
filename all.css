@@ -19,6 +19,7 @@ h1{
     font-style: normal;
     font-weight: normal;
     color: var(--white);
+    text-align: center;
 }
 
 h2{
@@ -27,6 +28,7 @@ h2{
     font-style: normal;
     font-weight: normal;
     color: var(--black);
+    text-align: left;
 }
 
 /*body text*/
@@ -36,7 +38,9 @@ h3{
     font-style: normal;
     font-weight: lighter;
     color: var(--black);
+    text-align: left;
 }
+
  /*link*/
 a:link {
     font-family: var(--bodytext);
@@ -45,6 +49,7 @@ a:link {
     font-weight: lighter;
     color: var(--pine);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 a:hover{
@@ -67,6 +72,32 @@ body{
     font-family: var(--bodytext);
 }
 
+
+/*~~~ Buttons ~~~*/
+button{
+    /*font*/
+    font-family: var(--bodytext);
+    font-size: 37px;
+    color: var(--pine);
+    text-align: center;
+
+    /*shape*/
+    background-color: var(--white);
+    border: 2px solid var(--pine);
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 275px;
+
+    /*other*/
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+button:hover{
+    background-color: var(--mint);
+}
 
 /*~~~~~~ Mobile version ~~~~~~*/
 @media only screen and (max-width: 500px){
