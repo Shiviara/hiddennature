@@ -1,0 +1,93 @@
+:root {
+    /*colors*/
+    --white: #FFFFFF;
+    --mint: #D1E1CD;
+    --sage: #99B7A3;
+    --pine: #557869;
+    --forest: #304E4E;
+    --black: #000000;
+
+    /*fonts*/
+    --bodytext: "Modern Sans", "Segoe UI", "Optima", Arial, Helvetica, sans-serif;
+    --heading: "Biko", "Microsoft Sans Serif","Franklin Gothic", "Charcoal", sans-serif;
+}
+
+/*~~~~ Typography ~~~~*/
+h1{
+    font-family: var(--heading);
+    font-size: 120px;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--white);
+}
+
+h2{
+    font-family: var(--heading);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--black);
+}
+
+/*body text*/
+h3{
+    font-family: var(--bodytext);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: lighter;
+    color: var(--black);
+}
+ /*link*/
+a:link {
+    font-family: var(--bodytext);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: lighter;
+    color: var(--pine);
+    text-decoration: underline;
+}
+
+a:hover{
+    color: var(--sage);
+}
+
+/*font nav bar*/
+header {
+    font-family: var(--bodytext);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: lighter;
+    color: var(--white);
+}
+
+
+/*~~~ Sections ~~~*/
+body{
+    /*body text*/
+    font-family: var(--bodytext);
+}
+
+
+/*~~~~~~ Mobile version ~~~~~~*/
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    /*body text*/
+    h3{
+        font-size: 16px;
+    }
+
+    a:link{
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 30px;
+    }
+}
