@@ -83,14 +83,13 @@ ul{
     color: var(--white);
     background-color: var(--forest);
 
-   /* overflow: hidden;*/
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 0 0 25px 25px;
 
      /*Grid*/
     display: grid;
-    grid-template-columns: auto auto 147px 147px 147px 147px auto auto ;
+    grid-template-columns: auto;
     grid-gap: 40px 50px;
 
     grid-template-rows: 0 auto 0;
@@ -116,6 +115,8 @@ ul{
 .box1 {
     grid-column: 1 / 2;
     grid-row: 2 /3;
+    justify-self: start;
+    margin-left: 45px;
 }
 
 .box2 {
@@ -138,6 +139,8 @@ ul{
 .box6 {
     grid-column: 10 / 11;
     grid-row: 2 /3;
+    justify-self: end;
+    margin-right: 45px;
 }
 
 
