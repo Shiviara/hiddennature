@@ -69,23 +69,16 @@ link {
     cursor: pointer;
 }
 
-ul{
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 40px;
-    text-align: center;
-    list-style-type: none;
-}
-
 .nav {
     font-style: normal;
     font-weight: lighter;
     color: var(--white);
     background-color: var(--forest);
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.181);
 
     margin-left: 150px;
     margin-right: 150px;
-    border-radius: 0 0 25px 25px;
 
      /*Grid*/
     display: grid;
