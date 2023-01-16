@@ -90,13 +90,14 @@ ul{
 }
 
 .nav a{
-    display: block;
     color: var(--white);
-    text-decoration: none;
+    font-size: 45px;
+    /*text-decoration: none;
     float: left;
     text-align: center;
-    padding: 40px 50px;
-    font-size: 45px;
+    padding: 40px 50px;*/
+
+    display: grid;
 }
 
 .middle{
