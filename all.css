@@ -83,45 +83,69 @@ ul{
     color: var(--white);
     background-color: var(--forest);
 
-    overflow: hidden;
+   /* overflow: hidden;*/
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 0 0 25px 25px;
+
+     /*Grid*/
+    display: grid;
+    grid-template-columns: auto auto 147px 147px 147px 147px auto auto ;
+    grid-gap: 40px 50px;
+
+    grid-template-rows: 0 auto 0;
+
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+    align-items: center;
+    justify-items: center;
+    align-content: flex-start;
+    justify-content: space-evenly;
 }
 
 .nav a{
     color: var(--white);
     font-size: 45px;
-    /*text-decoration: none;
-    float: left;
+    text-decoration: none;
     text-align: center;
-    padding: 40px 50px;*/
-
-    display: grid;
+    padding: 0;
 }
 
-.middle{
-    display: flex;
-    justify-content: center;
-    margin: 0;
+
+.box1 {
+    grid-column: 1 / 2;
+    grid-row: 2 /3;
 }
 
-section{
-    margin: 0;
+.box2 {
+    grid-column: 4 / 5;
+    grid-row: 2 /3;
 }
 
-.nav a.splitL{
-    float: left;
-    margin: 0;
+.box3 {
+    grid-column: 5 / 6;
+    grid-row: 2 /3;
 }
-
-.nav a.splitR{
-    float: right;
-    margin: 0;
+.box4 {
+    grid-column: 6 / 7;
+    grid-row: 2 /3;
+}
+.box5 {
+    grid-column: 7 / 8;
+    grid-row: 2 /3;
+}
+.box6 {
+    grid-column: 10 / 11;
+    grid-row: 2 /3;
 }
 
 
 /*~~~ Sections ~~~*/
+section{
+    margin: 0;
+}
+
 body{
     /*body text*/
     font-family: var(--bodytext);
