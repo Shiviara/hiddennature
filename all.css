@@ -77,8 +77,8 @@ link {
     border-radius: 0 0 25px 25px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.181);
 
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 8vw;
+    margin-right: 8vw;
 
      /*Grid*/
     display: grid;
@@ -149,8 +149,8 @@ body{
 }
 
 main{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 
