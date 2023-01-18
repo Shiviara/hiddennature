@@ -12,9 +12,24 @@
     --heading: "Biko", "Microsoft Sans Serif","Franklin Gothic", "Charcoal", sans-serif;
 }
 
-.shadow{
-    width: 400px;
-    height: 200px;
-    background-color: var(--mint);
-    box-shadow: 10px 10px #000000;
+section{
+    margin: 0;
+    /*margin-left: 8vw;
+    margin-right: 8vw;*/
+}
+
+/*~~~Front page banner~~*/
+.banner{
+    background-image: url("/img/photos/greenPlants.png");
+    min-height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner{
+    width: 100vw;
+    height: auto;
+    display: block;
 }
