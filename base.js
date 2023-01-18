@@ -1,5 +1,6 @@
 console.log("Navigating the bar...")
 
+//"Universal nav bar", but now it's only for the front page
 const NavBar = `
     <div class="nav">
         <a href="#title" class="box1"><img src="/img/home.png" alt="Home button" id="homeIcon"></a>
@@ -13,8 +14,20 @@ const NavBar = `
 
 document.getElementById("navbar").innerHTML = NavBar;
 
+//Universal footer with copyright
 const Footer = `
     <p style="color: #D1E1CD;">Copyright 2022 © Marta Zarebska</p>
 `;
 
 document.getElementById("copyright").innerHTML = Footer;
+
+//Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
