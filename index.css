@@ -40,3 +40,13 @@ section{
 #cta{
     margin-left: 170px;
 }
+
+/*~~~ Places ~~~*/
+#places{
+    background-color: var(--pine);
+}
+
+/*~~~ Contact ~~~*/
+#contact {
+    background-color: var(--forest);
+}
