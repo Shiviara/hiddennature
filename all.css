@@ -161,14 +161,6 @@ main{
     margin: 0;
 }
 
-#places{
-    background-color: var(--pine);
-}
-
-#contact {
-    background-color: var(--forest);
-}
-
 footer{
     background-color: var(--forest);
     margin: 0;
@@ -215,7 +207,7 @@ button:hover{
     }
 
     /*body text*/
-    h3{
+    p{
         font-size: 16px;
     }
 
