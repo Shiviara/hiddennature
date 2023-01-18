@@ -41,7 +41,8 @@ h3{
     font-style: normal;
     font-weight: lighter;
     color: var(--black);
-    text-align: left;
+    margin: 0;
+    /*text-align: left;*/
 }
 
  /*link*/
@@ -101,7 +102,7 @@ link {
 
 .nav a{
     color: var(--white);
-    font-size: 45px;
+    font-size: 3vw;
     text-decoration: none;
     text-align: center;
     padding: 0;
@@ -136,6 +137,10 @@ link {
     margin-right: 45px;
 }
 
+#homeIcon{
+    height: 3vw;
+    width: auto;
+}
 
 /*~~~ Sections ~~~*/
 section{
@@ -160,6 +165,14 @@ main{
 
 .contact {
     background-color: var(--forest);
+}
+
+footer{
+    background-color: var(--forest);
+    margin: 0;
+    padding: 5vh;
+    text-align: center;
+    color: var(--mint);
 }
 
 

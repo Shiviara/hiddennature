@@ -2,7 +2,7 @@ console.log("Navigating the bar...")
 
 const NavBar = `
     <div class="nav">
-        <a href="index.html" class="box1"><img src="/img/home.png" alt="Home button"></a>
+        <a href="index.html" class="box1"><img src="/img/home.png" alt="Home button" id="homeIcon"></a>
         <a href="health.html" class="box2">Health</a>
         <a href="places.html" class="box3">Places</a>
         <a href="activities.html" class="box4">Activities</a>
@@ -12,3 +12,9 @@ const NavBar = `
 `;
 
 document.getElementById("navbar").innerHTML = NavBar;
+
+const Footer = `
+    <h3 style="color: #D1E1CD;">Copyright 2022 © Marta Zarebska</h3>
+`;
+
+document.getElementById("copyright").innerHTML = Footer;
