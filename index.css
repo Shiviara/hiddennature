@@ -28,8 +28,15 @@ section{
     position: relative;
 }
 
-#banner{
-    width: 100vw;
-    height: auto;
-    display: block;
+#title{
+    margin-top: 0; 
+    margin-bottom: 100px;
+    color: black; 
+    text-align: left;
+    padding-top: 230px;
+    padding-left: 170px;
+}
+
+#cta{
+    margin-left: 170px;
 }
