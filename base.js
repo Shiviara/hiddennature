@@ -14,7 +14,7 @@ const NavBar = `
 document.getElementById("navbar").innerHTML = NavBar;
 
 const Footer = `
-    <h3 style="color: #D1E1CD;">Copyright 2022 © Marta Zarebska</h3>
+    <p style="color: #D1E1CD;">Copyright 2022 © Marta Zarebska</p>
 `;
 
 document.getElementById("copyright").innerHTML = Footer;
