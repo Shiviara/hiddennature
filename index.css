@@ -18,10 +18,20 @@ section{
     margin-right: 8vw;*/
 }
 
+article{
+    margin-left: 19vw; /*375px*/
+    margin-right: 19vw; /*375px*/
+    margin-bottom: 8vh; /*100px*/
+
+    background-color: var(--white);
+    padding: 4vh; /*50px*/
+    border-radius: 25px;
+}
+
 /*~~~Front page banner~~*/
 .banner{
     background-image: url("/img/photos/greenPlants2.png");
-    min-height: 850px;
+    min-height: 85vh; /*850px*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,23 +40,36 @@ section{
 
 #title{
     margin-top: 0; 
-    margin-bottom: 100px;
+    margin-bottom: 8vh; /*100px*/
     color: black; 
     text-align: left;
-    padding-top: 230px;
-    padding-left: 170px;
+    padding-top: 17vh; /*230px*/
+    padding-left: 9vw; /*170px*/
 }
 
 #cta{
-    margin-left: 170px;
+    margin-left: 9vw; /*170px*/
+    margin-bottom: 5vh;
 }
 
 /*~~~ Places ~~~*/
 #places{
     background-color: var(--pine);
+    padding-bottom: 1px;
+}
+
+.place{
+    margin-left: 13vw;
+    margin-right: 13vw;
 }
 
 /*~~~ Contact ~~~*/
 #contact {
     background-color: var(--forest);
+}
+
+#mini{
+    color: var(--white);
+    margin-bottom: 0;
+    text-align: center;
 }
