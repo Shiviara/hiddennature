@@ -161,11 +161,11 @@ main{
     margin: 0;
 }
 
-.places{
+#places{
     background-color: var(--pine);
 }
 
-.contact {
+#contact {
     background-color: var(--forest);
 }
 
