@@ -111,6 +111,10 @@ article{
     cursor: pointer;
 }
 
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
 /*chosen places*/
 #plukk{
     margin-bottom: 8vh;
