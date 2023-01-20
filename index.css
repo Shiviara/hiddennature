@@ -95,11 +95,10 @@ article{
 
 /*map*/
 #map{
-    display: block;
+    display: relative;
     margin-left: 13vw;
     margin-right: 13vw;
-    height: 550px;
-    width: auto;
+    width: 74vw;
 }
 
 /*chosen places*/
