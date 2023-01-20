@@ -61,6 +61,7 @@ article{
 }
 
 /*~~~ Places ~~~*/
+
 #places{
     background-color: var(--pine);
     padding-bottom: 1px;
@@ -70,6 +71,26 @@ article{
     margin-left: 13vw;
     margin-right: 13vw;
     margin-bottom: 5vh;
+}
+
+/*Filter*/
+
+#filter{
+    background-color: var(--sage);
+    border-radius: 50px;
+    margin: 60px 250px 40px 250px;
+}
+
+#filter button{
+    background-color: var(--sage);
+    border: none;
+    color: var(--black);
+    font-size: 40px;
+    padding: 15px auto;
+    width: 272px;
+}
+#filter button:focus{
+    background-color: var(--mint);
 }
 
 #plukk{
