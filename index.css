@@ -87,7 +87,7 @@ article{
     color: var(--black);
     font-size: 40px;
     padding: 15px auto;
-    width: 14.5vw;
+    width: 14.2vw;
 }
 #filter button:focus{
     background-color: var(--mint);
