@@ -106,16 +106,18 @@
                 Have any opinions or suggestion you would like to share?<br>
                 Write us!
             </p>
+            
             <form>
-                <input type="text" id="name" name="name" placeholder="Name"><br>
-                <input type="email" id="email" name="email" placeholder="E-mail*"><br>
-                <input type="text" id="subject" name="subject" placeholder="Subject"><br>
-
-                <textarea name="message" rows="10" cols="30" placeholder="Write your message here*"></textarea>
-                
-                <input type="submit">
-                <button>Submit</button>
-                    
+                <section id="conL">
+                    <input type="text" id="name" name="name" placeholder="Name"><br>
+                    <input type="email" id="email" name="email" placeholder="E-mail*" required><br>
+                    <input type="text" id="subject" name="subject" placeholder="Subject*" required><br>
+                </section>
+                <section id="conR">
+                    <textarea name="message" id="message" rows="10" cols="30" placeholder="Write your message here*" required></textarea>
+                    <input type="submit">
+                    <button>Submit</button>
+                </section>        
             </form>
         </section>
     </main>

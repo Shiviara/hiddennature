@@ -116,3 +116,33 @@ article{
     margin-bottom: 0;
     text-align: center;
 }
+
+form{
+    margin: 0 13vw;
+    padding-bottom: 60px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+
+    /*text*/
+    font-size: 30px;
+    font-family: var(--bodytext);
+}
+
+#conL{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+#conR{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
