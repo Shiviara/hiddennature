@@ -1,6 +1,6 @@
 console.log("Mapping in process")
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpdmlhcmEiLCJhIjoiY2xkNG8ybWZlMGRrazN3bWRmZmQ5aHVjNSJ9.1ZI7OPI3i2MKBCteB9V1Ng';
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpdmlhcmEiLCJhIjoiY2xkNG8ybWZlMGRrazN3bWRmZmQ5aHVjNSJ9.1ZI7OPI3i2MKBCteB9V1Ng.1ZI7OPI3i2MKBCteB9V1Ng';
 
 const pin1 = [10.203477, 56.168600];
 
