@@ -93,6 +93,14 @@ article{
     background-color: var(--mint);
 }
 
+/*map*/
+#map{
+    display: block;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    width: 74vw;
+}
+
 /*chosen places*/
 #plukk{
     margin-bottom: 8vh;
