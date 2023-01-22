@@ -95,7 +95,7 @@ article{
 
 /*map*/
 #map{
-    display: relative;
+    display: block;
     margin-left: 13vw;
     margin-right: 13vw;
     width: 74vw;
