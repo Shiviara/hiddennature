@@ -210,4 +210,11 @@ textarea{
     #conR{
         align-items: center;
     }
+
+    #submit{
+        font-size: 25px;
+        width: 270px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
 }
