@@ -3,11 +3,11 @@ console.log("Navigating the bar...")
 //"Universal nav bar", but now it's only for the front page
 const NavBar = `
     <div class="nav">
-        <a href="#title" class="box1"><img src="/img/home.png" alt="Home button" id="homeIcon"></a>
-        <a href="#health" class="box2">Health</a>
-        <a href="#places" class="box3">Places</a>
-        <a href="#activities" class="box4">Activities</a>
-        <a href="#contact" class="box5">Contact</a>
+        <a href="index.html" class="box1"><img src="/img/home.png" alt="Home button" id="homeIcon"></a>
+        <a href="index.html" class="box2">Health</a>
+        <a href="index.html" class="box3">Places</a>
+        <a href="index.html" class="box4">Activities</a>
+        <a href="index.html" class="box5">Contact</a>
         <a href="404.html" class="box6">EN</a>
     </div>
 `;

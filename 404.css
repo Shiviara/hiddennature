@@ -1,0 +1,45 @@
+:root {
+    /*colors*/
+    --white: #FFFFFF;
+    --mint: #D1E1CD;
+    --sage: #99B7A3;
+    --pine: #557869;
+    --forest: #304E4E;
+    --black: #000000;
+
+    /*fonts*/
+    --bodytext: "Modern Sans", "Segoe UI", "Optima", Arial, Helvetica, sans-serif;
+    --heading: "Biko", "Microsoft Sans Serif","Franklin Gothic", "Charcoal", sans-serif;
+}
+
+body{
+    background-color: var(--sage);
+    background-image: url(/img/flowers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 20vh;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+button{
+    margin-top: 60px;
+}
+
+p{
+    margin: 0;
+}
