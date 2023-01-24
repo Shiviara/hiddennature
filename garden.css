@@ -1,0 +1,23 @@
+:root {
+    /*colors*/
+    --white: #FFFFFF;
+    --mint: #D1E1CD;
+    --sage: #99B7A3;
+    --pine: #557869;
+    --forest: #304E4E;
+    --black: #000000;
+
+    /*fonts*/
+    --bodytext: "Modern Sans", "Segoe UI", "Optima", Arial, Helvetica, sans-serif;
+    --heading: "Biko", "Microsoft Sans Serif","Franklin Gothic", "Charcoal", sans-serif;
+}
+
+article{
+    margin-left: 19vw; /*375px*/
+    margin-right: 19vw; /*375px*/
+    margin-bottom: 8vh; /*100px*/
+
+    background-color: var(--white);
+    padding: 3vw; /*55px*/
+    border-radius: 25px;
+}
