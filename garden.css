@@ -12,12 +12,37 @@
     --heading: "Biko", "Microsoft Sans Serif","Franklin Gothic", "Charcoal", sans-serif;
 }
 
+body{
+    background-color: var(--pine);
+}
+
+main{
+    margin-top: 14vh;
+}
+
 article{
-    margin-left: 19vw; /*375px*/
-    margin-right: 19vw; /*375px*/
+    margin-left: 2vw; /*250px*/
+    margin-right: 36vw; /*680px*/
     margin-bottom: 8vh; /*100px*/
 
     background-color: var(--white);
     padding: 3vw; /*55px*/
+    padding-right: 18vw;
     border-radius: 25px;
+}
+
+#description button{
+    background-color: var(--mint);
+    display: block;
+}
+
+#go-back{
+    margin-left: 8vw;
+}
+
+#up{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
 }
