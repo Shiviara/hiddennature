@@ -27,13 +27,30 @@ article{
 
     background-color: var(--white);
     padding: 3vw; /*55px*/
-    padding-right: 18vw;
+    padding-right: 14vw;
     border-radius: 25px;
+}
+
+#description {
+    display: flex;
+    align-items: flex-start;
 }
 
 #description button{
     background-color: var(--mint);
     display: block;
+}
+
+#main-pic{
+    z-index: 1;
+    position: absolute;
+    margin-top: 3vh;
+    margin-right: 8vw;
+    right: 0;
+
+    width: 39vw;
+    border-radius: 25px;
+    box-shadow: -1px -3px 6px rgb(0 0 0 / 15%);
 }
 
 #go-back{
