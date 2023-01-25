@@ -33,7 +33,7 @@ article{
 
 #description {
     display: grid;
-    grid-template-columns: 687px 303px 430px;
+    grid-template-columns: 37vw 12vw 26vw;
     grid-template-rows: 50px 407px 70px;
     gap: 0px;
 }
@@ -50,12 +50,9 @@ article{
 
 #main-pic{
     z-index: 1;
-    /*position: absolute;
-    margin-top: 3vh;
-    margin-right: 8vw;
-    right: 0;
 
-    width: 39vw;*/
+    width: 100%;
+    height: auto;
     border-radius: 25px;
     box-shadow: -1px -3px 6px rgb(0 0 0 / 15%);
 
