@@ -17,7 +17,7 @@ body{
 }
 
 main{
-    margin-top: 14vh;
+    margin-top: 170px;
 }
 
 article{
@@ -27,7 +27,7 @@ article{
 
     background-color: var(--white);
     padding: 3vw; /*55px*/
-    padding-right: 14vw;
+    padding-right: 16vw;
     border-radius: 25px;
 }
 
@@ -45,7 +45,7 @@ article{
     z-index: 1;
     position: absolute;
     margin-top: 3vh;
-    margin-right: 8vw;
+    margin-right: 13vw;
     right: 0;
 
     width: 39vw;
