@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stenpartiet</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="garden.css">
+</head>
+<body>
+    <header>
+        <div id="navbar"></div>
+    </header>
+
+    <main>
+        <section id="description">
+            <img src="/img/go-back.png" alt="go back button" id="go-back" onclick="history.back()">
+            <article id="box">
+                <h2>Stenpartiet</h2>
+                <p>
+                    Stone garden near the city center of Aarhus that is as charming during winter as in summer. 
+                    Here you can admire and learn about various plants, or just take a stroll in a peaceful atmosphere.
+                </p>
+                <button><a href="#map">See map</a></button>
+            </article>
+            <img src="/img/photos/garden/frstone.png" alt="Photo of a stone path" id="main-pic">
+        </section>
+
+        <section id="gallery">
+            <div id="activ">
+                <h3>Activities</h3>
+                <p>Walking, learning about plants</p>
+            </div>
+            <img src="/img/photos/garden/stairs.png" id="vertical">
+            <img src="/img/photos/garden/stone.png" id="big-hor1">
+            <img src="/img/photos/garden/bench.png" id="big-hor2">
+            <img src="/img/photos/garden/map.png" id="small-hor1">
+            <img src="/img/photos/garden/path.png" id="small-hor2">
+
+        </section>
+
+        <iframe src="https://www.google.com/maps/d/embed?mid=1MzB3tV0JHkEWkJoVEzAylfppQnjQYP8&ehbc=2E312F" 
+        width='100%' height='550px' id="map"></iframe>
+    </main>
+
+    <footer>
+        <div id="copyright"></div>
+    </footer>
+
+    <script src="base.js" async></script>
+</body>
+</html>
