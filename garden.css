@@ -86,6 +86,7 @@ h3{
     font-family: var(--heading);
     font-size: 40px;
     margin: 0;
+    font-weight: normal;
 }
 
 #activ{
