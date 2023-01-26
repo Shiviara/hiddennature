@@ -48,6 +48,13 @@ article{
     display: block;
 }
 
+button a{
+    font-family: var(--bodytext);
+    font-size: 37px;
+    color: var(--pine);
+    text-decoration: none;
+}
+
 #box{
     grid-column: 2 / 4;
     grid-row: 1/4;
@@ -138,4 +145,14 @@ h3{
     grid-row: 4/5;
     height: 100%;
     width: 100%;
+}
+
+/*~~Map~~*/
+#map{
+    display: block;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    width: 74vw;
+    border-radius: 25px;
+    margin-bottom: 100px;
 }
