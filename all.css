@@ -171,6 +171,10 @@ footer{
     color: var(--mint);
 }
 
+footer p{
+    margin: 0;
+}
+
 
 /*~~~ Buttons ~~~*/
 button{

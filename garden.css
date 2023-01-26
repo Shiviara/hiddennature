@@ -102,6 +102,10 @@ h3{
     border-radius: 25px;
 }
 
+#activ p{
+    margin-bottom: 0;
+}
+
 #gallery{
     display: grid;
     /*grid-template-columns: 460px 240px 700px;*/
