@@ -48,7 +48,7 @@ article{
     display: block;
 }
 
-button a{
+a {
     font-family: var(--bodytext);
     font-size: 37px;
     color: var(--pine);
