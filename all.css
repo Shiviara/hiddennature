@@ -279,6 +279,13 @@ button:hover{
         padding-bottom: 13px;
     }
 
+    .button{
+        font-size: 25px;
+        width: 270px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
     /* Nav bar */
     .nav{
         bottom: 0;
