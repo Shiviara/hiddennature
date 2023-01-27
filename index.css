@@ -73,9 +73,11 @@ article{
     justify-content: space-between;
 }*/
 
-.sideL .sideR{
+.sideL, .sideR{
     display: block;
     position: relative;
+    width: 20vw;
+    height: auto;
 }
 
 .pretty{
@@ -259,9 +261,13 @@ textarea{
         margin-top: 0;
         padding: 5vw;
     }
+    /*~~Decor~~*/
+    .sideL,  .sideR{
+        display: none;
+    }
 
     .side{
-        display: none3;
+        display: none;
     }
 
     /*~~Places~~*/
