@@ -247,7 +247,7 @@ button:hover{
 }
 
 /*~~~~~~ Mobile version ~~~~~~*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     /* Typography */
 
     h1{

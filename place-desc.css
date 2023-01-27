@@ -157,7 +157,7 @@ h3{
 }
 
 /*~~~~~~ Mobile version ~~~~~~*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     main{
         margin: 0;
     }
