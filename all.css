@@ -217,6 +217,7 @@ button:hover{
     text-align: center;
 
     /*shape*/
+    display: block;
     background-color: var(--white);
     border: 2px solid var(--pine);
     border-radius: 50px;

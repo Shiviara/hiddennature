@@ -171,7 +171,6 @@ h3{
 
     #box{
         margin: 0;
-        margin-bottom: 3vw;
         min-height: 0;
     }
 
@@ -202,6 +201,10 @@ h3{
         justify-content: flex-start;
         align-items: stretch;
         margin: 3vw;
+    }
+
+    #main-pic{
+        margin-bottom: 3vw;
     }
 
     #map{
