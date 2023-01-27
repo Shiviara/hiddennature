@@ -268,11 +268,24 @@ button:hover{
         grid-template-rows: 0 auto 0;
     }
 
+    .nav a{
+        height: 5vw;
+    }
+
     .box2, .box3, .box4, .box5 {
         display: none;
     }
 
     #homeIcon {
         height: 5vw;
+    }
+
+    /*Sections*/
+    article{
+        margin: 3vw;
+    }
+
+    .place{
+        margin: 3vw;
     }
 }
