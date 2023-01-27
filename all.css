@@ -242,4 +242,27 @@ button:hover{
         padding-top: 13px;
         padding-bottom: 13px;
     }
+
+    /* Nav bar */
+    .nav{
+        bottom: 0;
+        top:unset;
+        border-radius: 25px 25px 0 0;
+        box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.181);
+        margin: 0;
+        width: 100vw;
+
+        /*grid*/
+        grid-template-columns: 30px auto 30px auto 30px;
+        grid-gap: 15px 0px;
+        grid-template-rows: 0 auto 0;
+    }
+
+    .box2, .box3, .box4, .box5 {
+        display: none;
+    }
+
+    #homeIcon {
+        height: 5vw;
+    }
 }
