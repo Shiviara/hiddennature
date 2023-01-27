@@ -43,10 +43,11 @@ article{
     gap: 0px;
 }
 
-#description button{
+#description .button{
     background-color: var(--mint);
     display: block;
 }
+
 
 #box{
     grid-column: 2 / 4;

@@ -36,6 +36,17 @@ h2{
     margin: 0;
 }
 
+h5{
+    font-family: var(--bodytext);
+    font-size: 37px;
+    color: var(--pine);
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    color: var(--pine);
+    margin: 0;
+}
+
 /*body text*/
 p{
     font-family: var(--bodytext);
@@ -241,20 +252,12 @@ button:hover{
 
     h1{
         font-size: 45px;
+        margin: 0;
+        padding: 30px;
     }
 
     h2{
         font-size: 30px;
-    }
-
-    #title{
-        margin-top: 0;
-        margin-bottom: 275px;
-        color: white;
-        text-align: left;
-        padding-top: 30px;
-        padding-left: 15px;
-        font-size: 70px;
     }
 
     /*body text*/
@@ -281,9 +284,17 @@ button:hover{
 
     .button{
         font-size: 25px;
-        width: 270px;
+        width: 100%;
         padding-top: 13px;
         padding-bottom: 13px;
+    }
+
+    .button h5{
+        font-family: var(--bodytext);
+        font-size: 25px;
+        color: var(--pine);
+        text-align: center;
+        margin: 0;
     }
 
     /* Nav bar */
@@ -311,14 +322,5 @@ button:hover{
 
     #homeIcon {
         height: 5vw;
-    }
-
-    /*Sections*/
-    article{
-        margin: 3vw;
-    }
-
-    .place{
-        margin: 3vw;
     }
 }
