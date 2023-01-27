@@ -116,6 +116,10 @@ article{
     background-color: var(--forest);
 }
 
+#contact h1{
+    margin-bottom: 0;
+}
+
 #contact p{
     color: var(--white);
     margin-bottom: 0;
@@ -223,21 +227,28 @@ textarea{
     article{
         margin: 3vw;
         margin-bottom: 6vw;
+        margin-top: 0;
         padding: 5vw;
     }
 
     /*~~Places~~*/
+    #map{
+        display: none;
+    }
+
     #filter{
         margin: 20px 3vw;
+        margin-top: 0;
         border-radius: 50px;
     }    
 
-    #filer button{
+    #filter button{
         font-size: 30px;
         border-radius: 50px;
+        width: 100%;
     }
 
-    #filer button #mobile{
+   #mobile{
         display: block;
         width: 100%;
     }
