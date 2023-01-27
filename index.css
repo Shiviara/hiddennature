@@ -93,6 +93,10 @@ article{
     background-color: var(--mint);
 }
 
+#mobile {
+    display: none;
+}
+
 /*map*/
 #map{
     display: block;
@@ -112,11 +116,12 @@ article{
     background-color: var(--forest);
 }
 
-#mini{
+#contact p{
     color: var(--white);
     margin-bottom: 0;
     text-align: center;
 }
+
 /*Form*/
 form{
     margin: 0 13vw;
@@ -214,21 +219,33 @@ textarea{
         width: 270px;
     }
 
-    /*button*/
-    /*.button{
-        font-size: 25px;
-        width: 100%;
-        padding-top: 13px;
-        padding-bottom: 13px;
-    }*/
-
     /*Sections*/
     article{
         margin: 3vw;
         margin-bottom: 6vw;
         padding: 5vw;
     }
-    
+
+    /*~~Places~~*/
+    #filter{
+        margin: 20px 3vw;
+        border-radius: 50px;
+    }    
+
+    #filer button{
+        font-size: 30px;
+        border-radius: 50px;
+    }
+
+    #filer button #mobile{
+        display: block;
+        width: 100%;
+    }
+
+    #list{
+        display: none;
+    }
+
     .place{
         margin: 3vw;
     }
@@ -237,19 +254,37 @@ textarea{
         margin-bottom: 6vw;
     }
 
+    /*~~Contact~~*/
+    #contact h1{
+        padding-bottom: 0;
+    }
+
+    #contact p{
+        margin-bottom: 3vw;
+    }
+
     form{
         flex-direction: column;
         align-items: center;
         align-content: center;
+        margin: 0 3vw;
+        padding-bottom: 6vw;
     }
 
     input{
-        width: 60vw;
+        width: 83vw;
+        height: auto;
+        margin: 0;
+        padding: 22px;
+        font-size: 16px;
     }
 
     textarea{
-        margin-left: 0;
-        width: 60vw;
+        margin: 0;
+        margin-bottom: 3vw;
+        width: 83vw;
+        padding: 22px;
+        font-size: 16px;
     }
 
     #conR{
@@ -258,7 +293,7 @@ textarea{
 
     #submit{
         font-size: 25px;
-        width: 270px;
+        width: 100%;
         padding-top: 13px;
         padding-bottom: 13px;
     }
