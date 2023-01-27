@@ -30,21 +30,31 @@
                 Explore nature <br>
                 in Aarhus
             </h1>
-            <button id="cta">See map</button>
+            <a href="#map" class="button" id="cta"><h5>See map</h5></a>
         </section>
 
     <!--HEALTH-->
         <section id="health">
             <h1>Why should you go<br>outdoors?</h1>
 
+        <section class="pretty">
+            <img src="/img/leaves/tadaL.png" class="sideL">
             <article>
                 <h2>See 7 health benefits</h2>
                 <p>
                     We all know that spending time outdoors during winter is not always a pleasant experience, 
                     but it's still a healthy thing to do. So read for motivation!
                 </p>
-                <button class="intro">Learn more</button>
+
+                <a href="404.html"class="intro button"><h5>Learn more</h5></a>
             </article>
+            <img src="/img/leaves/tadaR.png" class="sideR">
+        </section>
+
+           <!--<section class="side">
+                <img src="/img/leaves/tadaL.png" class="sideL">
+                <img src="/img/leaves/tadaR.png" class="sideR">
+            </section>-->
         </section>
 
     <!--PLACES-->
@@ -57,12 +67,14 @@
 
         <!--Filter-->
         <div id="filter">
-            <!--<button id="red" onclick="highlight()">All</button>-->
-            <button>All</button>
-            <button>Forests</button>
-            <button>Parks</button>
-            <button>Gardens</button>
-            <button>Other</button>
+            <button id="mobile">Filter</button>
+            <section id="list">
+                <button>All</button>
+                <button>Forests</button>
+                <button>Parks</button>
+                <button>Gardens</button>
+                <button>Other</button>
+            </section>
         </div>
 
         <!--Chosen places-->
@@ -72,7 +84,8 @@
                     Shelter located next to Vestereng forest. With its own campfire space it makes a perfect place for 
                     hanging out in nature with your friends or family.
                 </p>
-                <button>Learn more</button>
+
+                <a href="shelter.html" class="button"><h5>Learn more</h5></a>
             </article>
 
             <article id="stone" class="place">
@@ -81,9 +94,7 @@
                     Here you can learn about plants and admire the view of Den Gamble By.
                 </p>
                 
-                <a href="garden.html">
-                <button>Learn more</button>
-                </a>
+                <a href="garden.html" class="button"><h5>Learn more</h5></a>
             </article>
 
             <article id="plukk" class="place">
@@ -91,7 +102,7 @@
                 <p>Small cafe that is a florist's at the same time. Come here to enjoy a cup of coffee, 
                     while being surrounded by nature as well as to buy new house plants.
                 </p>
-                <button>Learn more</button>
+                <a href="plukk.html" class="button"><h5>Learn more</h5></a>
             </article>
         </section>
 
@@ -99,20 +110,25 @@
         <section id="activities">
             <h1>Winter activities<br>in Aarhus</h1>
 
+            <section class="pretty">
+                <img src="/img/leaves/ballsL.png" class="sideL" id="balls">
             <article>
                 <h2>Ideas for activities in Aarhus</h2>
                 <p>
                     Are you bored? Wanna know what you can do with your free time during winter? And you are in Aarhus? 
                     Wow, you are just the target group for this section. Come on, don't be shy - click the button.
                 </p>
-                <button class="intro">Learn more</button>
+
+                <a href="404.html" class="intro button"><h5>Learn more</h5></a>
             </article>
+                <img src="/img/leaves/ballsR.png" class="sideR" id="balls">
+            </section>
         </section>
 
     <!--CONTACT-->
         <section id="contact">
             <h1>Contact</h1>
-            <p id="mini">
+            <p>
                 Have any opinions or suggestion you would like to share?<br>
                 Write us!
             </p>
@@ -135,7 +151,7 @@
     <div id="copyright"></div>
     </footer>
 
-    <script src="base.js" async></script>
+    <script src="base.js" defer></script>
     <script src="places.js" async></script>
     <script src="map.js" async></script>
 </body>

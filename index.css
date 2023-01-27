@@ -19,8 +19,11 @@ section{
 }
 
 article{
-    margin-left: 19vw; /*375px*/
-    margin-right: 19vw; /*375px*/
+   /* margin-left: 19vw; /*375px*/
+    /*margin-right: 19vw; /*375px*/
+    
+    margin: 0 2vw;
+
     margin-bottom: 8vh; /*100px*/
 
     background-color: var(--white);
@@ -60,6 +63,34 @@ article{
     margin-bottom: 5vh;
 }
 
+/*~~Decor~~*/
+/*
+.side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}*/
+
+.sideL, .sideR{
+    display: block;
+    position: relative;
+    width: 20vw;
+    height: auto;
+}
+
+.pretty{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+#balls{
+    margin-bottom: -66px;
+}
+
 /*~~~ Places ~~~*/
 
 #places{
@@ -93,6 +124,10 @@ article{
     background-color: var(--mint);
 }
 
+#mobile {
+    display: none;
+}
+
 /*map*/
 #map{
     display: block;
@@ -112,11 +147,16 @@ article{
     background-color: var(--forest);
 }
 
-#mini{
+#contact h1{
+    margin-bottom: 0;
+}
+
+#contact p{
     color: var(--white);
     margin-bottom: 0;
     text-align: center;
 }
+
 /*Form*/
 form{
     margin: 0 13vw;
@@ -192,19 +232,109 @@ textarea{
 }
 
 @media only screen and (max-width: 700px){
+    .banner{
+        background-image: url(/img/photos/flowers.png);
+        min-height: 760px;
+    }
+
+    #title{
+        margin-top: 0;
+        margin-bottom: 275px;
+        color: white;
+        text-align: left;
+        padding-top: 30px;
+        padding-left: 15px;
+        font-size: 70px;
+    }
+
+    #cta{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        width: 270px;
+    }
+
+    /*Sections*/
+    article{
+        margin: 3vw;
+        margin-bottom: 6vw;
+        margin-top: 0;
+        padding: 5vw;
+    }
+    /*~~Decor~~*/
+    .sideL,  .sideR{
+        display: none;
+    }
+
+    .side{
+        display: none;
+    }
+
+    /*~~Places~~*/
+    #map{
+        display: none;
+    }
+
+    #filter{
+        margin: 20px 3vw;
+        margin-top: 0;
+        border-radius: 50px;
+    }    
+
+    #filter button{
+        font-size: 30px;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+   #mobile{
+        display: block;
+        width: 100%;
+    }
+
+    #list{
+        display: none;
+    }
+
+    .place{
+        margin: 3vw;
+    }
+
+    #plukk{
+        margin-bottom: 6vw;
+    }
+
+    /*~~Contact~~*/
+    #contact h1{
+        padding-bottom: 0;
+    }
+
+    #contact p{
+        margin-bottom: 3vw;
+    }
+
     form{
         flex-direction: column;
         align-items: center;
         align-content: center;
+        margin: 0 3vw;
+        padding-bottom: 6vw;
     }
 
     input{
-        width: 60vw;
+        width: 83vw;
+        height: auto;
+        margin: 0;
+        padding: 22px;
+        font-size: 16px;
     }
 
     textarea{
-        margin-left: 0;
-        width: 60vw;
+        margin: 0;
+        margin-bottom: 3vw;
+        width: 83vw;
+        padding: 22px;
+        font-size: 16px;
     }
 
     #conR{
@@ -213,7 +343,7 @@ textarea{
 
     #submit{
         font-size: 25px;
-        width: 270px;
+        width: 100%;
         padding-top: 13px;
         padding-bottom: 13px;
     }
