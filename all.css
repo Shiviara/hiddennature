@@ -12,6 +12,10 @@
     --heading: "Biko", "Microsoft Sans Serif","Franklin Gothic", "Charcoal", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*~~~~ Typography ~~~~*/
 h1{
     font-family: var(--heading);
