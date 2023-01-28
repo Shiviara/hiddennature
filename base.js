@@ -18,6 +18,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//Mobile nav bar
+function myFunction() {
+    var x = document.getElementById("expended");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
+
 //"Universal nav bar", but now it's only for the front page
 const NavBar = `
     <div class="nav">
