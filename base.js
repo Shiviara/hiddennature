@@ -2,7 +2,7 @@ console.log("Navigating the bar...")
 
 //Universal footer with copyright
 const Footer = `
-    <p style="color: #D1E1CD;">Copyright 2022 © Marta Zarebska</p>
+    <p>Copyright 2022 © Marta Zarebska</p>
 `;
 
 document.getElementById("copyright").innerHTML = Footer;
