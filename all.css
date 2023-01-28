@@ -169,6 +169,10 @@ a {
     display: contents;
 }
 
+#more{
+    display: none;
+}
+
 /*~~~ Sections ~~~*/
 /*section{
     margin: 0;
@@ -340,5 +344,14 @@ button:hover{
         width: 100vw;
         position: fixed;
         z-index: -1;
+    }
+
+    #more{
+        display: block;
+        position: fixed;
+        grid-column: 7 / 8;
+        grid-row: 2 /3;
+        justify-self: center;
+        height: 30px;
     }
 }
