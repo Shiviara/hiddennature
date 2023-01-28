@@ -42,7 +42,7 @@ article{
 .banner{
     background-image: url("/img/photos/greenPlants2.png");
     min-height: 85vh; /*850px*/
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
