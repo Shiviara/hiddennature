@@ -165,6 +165,10 @@ a {
     width: auto;
 }
 
+#expended{
+    display: contents;
+}
+
 /*~~~ Sections ~~~*/
 /*section{
     margin: 0;
@@ -314,13 +318,27 @@ button:hover{
 
     .nav a{
         height: 5vw;
+        font-size: 30px;
+        padding: 25px 15px;
     }
-
+/*
     .box2, .box3, .box4, .box5 {
         display: none;
-    }
+    }*/
 
     #homeIcon {
-        height: 5vw;
+        height: 30px;
+    }
+
+    #expended{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 380px;
+        align-items: flex-start;
+        border-radius: 25px 25px 0 0;
+        background-color: var(--forest);
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
     }
 }
