@@ -32,10 +32,13 @@ function myFunction() {
 const NavBar = `
     <div class="nav">
         <a href="index.html" class="box1"><img src="/img/home.png" alt="Home button" id="homeIcon"></a>
-        <a href="index.html" class="box2">Health</a>
-        <a href="index.html" class="box3">Places</a>
-        <a href="index.html" class="box4">Activities</a>
-        <a href="index.html" class="box5">Contact</a>
+            <section id="expended">
+                <a href="index.html" class="box2">Health</a>
+                <a href="index.html" class="box3">Places</a>
+                <a href="index.html" class="box4">Activities</a>
+                <a href="index.html" class="box5">Contact</a>
+            </section>
+        <img src="/img/hamburger.png" id="more" onclick="myFunction()">
         <a href="404.html" class="box6">EN</a>
     </div>
 `;
