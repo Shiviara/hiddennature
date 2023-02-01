@@ -14,7 +14,7 @@
 
 body{
     background-color: var(--sage);
-    background-image: url(/img/flowers.png);
+    background-image: url(img/flowers.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,7 +49,7 @@ p{
 @media only screen and (max-width: 700px){
 
     body{
-        background-image: url(/img/m.flowers.png);
+        background-image: url(img/m.flowers.png);
     }
 
     main{

@@ -233,7 +233,7 @@ textarea{
 
 @media only screen and (max-width: 900px){
     .banner{
-        background-image: url(/img/photos/flowers.png);
+        background-image: url(img/photos/flowers.png);
         min-height: 760px;
     }
 
