@@ -38,7 +38,7 @@ const NavBar = `
                 <a href="index.html" class="box4">Activities</a>
                 <a href="index.html" class="box5">Contact</a>
             </section>
-        <img src="img/hamburger.png" id="more" onclick="myFunction()">
+        <img src="img/hamburger.png" id="more" onclick="myFunction()" alt="Hamburger menu">
         <a href="404.html" class="box6">EN</a>
     </div>
 `;
