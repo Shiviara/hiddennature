@@ -1,4 +1,4 @@
-console.log("Navigating the bar...")
+console.log("Navigating the bar...");
 
 //Universal footer with copyright
 const Footer = `

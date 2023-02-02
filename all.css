@@ -59,7 +59,6 @@ p{
     font-weight: lighter;
     color: var(--black);
     margin: 20px 0 30px 0;
-    /*text-align: left;*/
 }
 
  /*link*/
@@ -178,10 +177,6 @@ a {
 }
 
 /*~~~ Sections ~~~*/
-/*section{
-    margin: 0;
-}*/
-
 body{
     /*body text*/
     font-family: var(--bodytext);
@@ -226,7 +221,6 @@ button{
     /*other*/
     cursor: pointer;
     transition-duration: 0.4s;
-
 }
 
 button:hover{
@@ -252,7 +246,6 @@ button:hover{
     /*other*/
     cursor: pointer;
     transition-duration: 0.4s;
-
 }
 
 .button:hover{
@@ -330,10 +323,6 @@ button:hover{
         font-size: 30px;
         padding: 25px 15px;
     }
-/*
-    .box2, .box3, .box4, .box5 {
-        display: none;
-    }*/
 
     #homeIcon {
         height: 30px;

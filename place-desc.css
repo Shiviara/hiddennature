@@ -22,10 +22,6 @@ main{
 }
 
 article{
-    /*margin-left: 2vw; /*250px*/
-    /*margin-right: 36vw; /*680px*/
-    /*margin-bottom: 8vh; /*100px*/
-
     background-color: var(--white);
     padding: 3vw; /*55px*/
     padding-right: 14vw;

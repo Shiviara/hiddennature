@@ -14,16 +14,10 @@
 
 section{
     margin: 0;
-    /*margin-left: 8vw;
-    margin-right: 8vw;*/
 }
 
 article{
-   /* margin-left: 19vw; /*375px*/
-    /*margin-right: 19vw; /*375px*/
-    
     margin: 0 2vw;
-
     margin-bottom: 8vh; /*100px*/
 
     background-color: var(--white);
@@ -64,15 +58,6 @@ article{
 }
 
 /*~~Decor~~*/
-/*
-.side{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: space-between;
-}*/
-
 .sideL, .sideR{
     display: block;
     position: relative;
@@ -87,7 +72,7 @@ article{
     align-items: flex-end;
 }
 
-#balls{
+.balls{
     margin-bottom: -66px;
 }
 
