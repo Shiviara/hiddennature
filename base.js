@@ -28,7 +28,7 @@ function myFunction() {
     }
   }
 
-//"Universal nav bar", but now it's only for the front page
+//"Universal nav bar" - only for the subpages
 const NavBar = `
     <div class="nav">
         <a href="index.html" class="box1"><img src="img/home.png" alt="Home button" id="homeIcon"></a>
